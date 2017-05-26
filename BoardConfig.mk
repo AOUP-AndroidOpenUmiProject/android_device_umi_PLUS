@@ -25,3 +25,6 @@ include $(LOCAL_PATH)/board/*.mk
 
 # inherit from common umi's mt6755
 -include device/umi/mt6755-common/BoardConfigCommon.mk
+
+# Specific system.prop
+TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
